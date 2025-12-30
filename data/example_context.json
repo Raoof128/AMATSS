@@ -1,0 +1,5 @@
+{
+  "organization": "Sample Energy Operator",
+  "sector": "Energy",
+  "notes": "Simulation-only context for testing narrative generation and logging."
+}
