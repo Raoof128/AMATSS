@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+- Raouf: 2025-12-31 (Australia/Sydney) | scope: repo | summary: add AGENT.md to gitignore | files: .gitignore | verification: not run | follow-ups: remove AGENT.md from git tracking if desired
+- Raouf: 2025-12-31 (Australia/Sydney) | scope: lint | summary: wrap dashboard headline markdown to satisfy ruff line length | files: dashboard/streamlit_ui.py | verification: not run | follow-ups: rerun ruff check .
 - Raouf: 2025-12-31 (Australia/Sydney) | scope: ui | summary: polish Streamlit dashboard layout, typography, and visual hierarchy for desktop | files: dashboard/streamlit_ui.py | verification: not run | follow-ups: review in Streamlit on desktop
 - Raouf: 2025-12-31 (Australia/Sydney) | scope: lint | summary: suppress ruff E402 for streamlit import ordering after sys.path injection | files: dashboard/streamlit_ui.py | verification: ruff check ., pytest | follow-ups: none
 - Raouf: 2025-12-31 (Australia/Sydney) | scope: fix | summary: ensure dashboard can import project modules when run via streamlit | files: dashboard/streamlit_ui.py | verification: not run | follow-ups: rerun streamlit dashboard

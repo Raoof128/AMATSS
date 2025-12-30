@@ -135,7 +135,10 @@ st.markdown(
 
 st.markdown("<div class='app-shell'>", unsafe_allow_html=True)
 st.markdown("<div class='pill'>Simulation-only</div>", unsafe_allow_html=True)
-st.markdown("<div class='headline'>Autonomous Red/Blue Team Simulation</div>", unsafe_allow_html=True)
+st.markdown(
+    "<div class='headline'>Autonomous Red/Blue Team Simulation</div>",
+    unsafe_allow_html=True,
+)
 st.markdown(
     "<div class='tagline'>SOCI Act critical infrastructure | research-grade safety harness</div>",
     unsafe_allow_html=True,

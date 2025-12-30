@@ -5,3 +5,4 @@ logs/
 reports/
 *.db
 .DS_Store
+AGENT.md
